@@ -1,0 +1,28 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },  
+	"mycloudant": {
+    "host": "162d533a-800b-4c99-98e2-5a06f8c1e9a2-bluemix.cloudant.com",
+    "port": 443,
+    "name": "Cloudant NoSQL DB-1d",
+    "connector": "couch",
+    "db": "slionic",
+    "protocol": "https",
+    "auth": {
+      "admin": {
+        "username": "changeme",
+        "password": "changeme"
+      },
+      "reader": {
+        "username": "changeme",
+        "password": "changeme"
+      },
+      "writer": {
+        "username": "changeme",
+        "password": "changemetoo"
+      }
+    }
+  }
+}

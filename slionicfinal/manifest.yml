@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 256M
+  command: node server/server.js
+  instances: 1
+  domain: mybluemix.net
+  name: SLIonicFinal
+  host: SLIonicFinal
+  disk_quota: 1024M

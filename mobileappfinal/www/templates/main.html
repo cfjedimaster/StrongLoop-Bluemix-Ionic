@@ -1,0 +1,11 @@
+<ion-view view-title="Feed">
+	<ion-content class="padding">
+
+		<ion-list>
+			<ion-item ng-repeat="item in items" ui-sref="detail({feedId:item.id})">
+				{{item.title}}
+			</ion-item>
+		</ion-list>
+
+	</ion-content>
+</ion-view>
